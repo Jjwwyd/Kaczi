@@ -104,3 +104,36 @@ nav a:hover {
   color: #7a6670;
   font-style: italic;
 }
+
+
+.table-scroll {
+  overflow-x: auto;
+  border: 1px solid #3a202c;
+  background: #120e12;
+  padding: 10px;
+}
+
+.spell-table {
+  width: 1200px;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.spell-table th {
+  background: #2a1822;
+  color: #f2b6d5;
+  padding: 8px;
+  border: 1px solid #3a202c;
+  text-align: center;
+}
+
+.spell-table td {
+  border: 1px solid #2a202c;
+  padding: 6px;
+  text-align: center;
+  color: #e9dbe2;
+}
+
+.spell-table td:nth-child(3) {
+  text-align: left;
+}
