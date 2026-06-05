@@ -33,7 +33,14 @@ h3 {
   padding-left: 10px;
 }
 
-/* SEKCJE JAK KARTY MANUSKRYPTU */
+/* SUBTEKST */
+.sub {
+  color: #b08a9a;
+  font-style: italic;
+  text-align: center;
+}
+
+/* SEKCJE JAK MANUSKRYPT */
 section {
   background: #1a1418;
   border: 1px solid #3a202c;
@@ -63,7 +70,7 @@ ul {
   padding-left: 20px;
 }
 
-/* 🔮 NAV — TERAZ DUŻY I WYRAŹNY */
+/* NAV — WYRAŹNY PANEL */
 nav {
   position: sticky;
   top: 0;
@@ -92,20 +99,21 @@ nav a:hover {
   background: #2a1822;
 }
 
-/* SUBTEKST */
-.sub {
-  color: #b08a9a;
-  font-style: italic;
-  text-align: center;
-}
-
-/* PUSTE */
+/* PUSTE HISTORIE */
 .empty {
   color: #7a6670;
   font-style: italic;
 }
 
+/* EKWIPUNEK BLOKI */
+.equipment-block {
+  margin-top: 10px;
+  padding: 10px;
+  background: #14141d;
+  border: 1px solid #2a1b2f;
+}
 
+/* 🔮 TABELA SPELLS — SCROLL */
 .table-scroll {
   overflow-x: auto;
   border: 1px solid #3a202c;
@@ -113,6 +121,7 @@ nav a:hover {
   padding: 10px;
 }
 
+/* SPELL TABLE */
 .spell-table {
   width: 1200px;
   border-collapse: collapse;
