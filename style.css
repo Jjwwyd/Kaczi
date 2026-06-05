@@ -74,22 +74,23 @@ ul {
 nav {
   position: sticky;
   top: 0;
-  background: #1c1218;
-  border: 2px solid #c46a92;
-  padding: 12px;
-  margin: 20px 0;
+  width: 100%;
+  background: #140e12;
+  border-bottom: 2px solid #c46a92;
+  padding: 14px 10px;
   text-align: center;
-  box-shadow: 0 0 15px rgba(196, 106, 146, 0.2);
-  z-index: 1000;
+  box-shadow: 0 0 18px rgba(196, 106, 146, 0.25);
+  z-index: 9999;
 }
 
 nav a {
   color: #f2b6d5;
   text-decoration: none;
-  margin: 0 20px;
+  margin: 0 18px;
   font-weight: bold;
   letter-spacing: 1px;
-  padding: 8px 12px;
+  padding: 8px 14px;
+  border-radius: 4px;
   border: 1px solid transparent;
   transition: 0.2s;
 }
