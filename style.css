@@ -1,79 +1,106 @@
 body {
-  background: #0b0b10;
-  color: #e6d6e6;
-  font-family: 'Georgia', serif;
+  background: #0f0c10;
+  color: #f0e6ea;
+  font-family: "Georgia", serif;
   margin: 0;
 }
 
+/* GŁÓWNY UKŁAD */
 .container {
   max-width: 900px;
   margin: auto;
   padding: 30px;
 }
 
+/* TYPOGRAFIA */
 h1 {
-  color: #c9a0dc;
-  letter-spacing: 2px;
+  color: #f2b6d5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #5a2a3a;
+  padding-bottom: 10px;
 }
 
-h2, h3 {
-  color: #b07aa1;
+h2 {
+  color: #d48fb0;
+  text-align: center;
 }
 
-.sub {
-  color: #9a8c98;
-  font-style: italic;
+h3 {
+  color: #e3a3c3;
+  border-left: 4px solid #c46a92;
+  padding-left: 10px;
 }
 
+/* SEKCJE JAK KARTY MANUSKRYPTU */
 section {
-  margin-bottom: 25px;
+  background: #1a1418;
+  border: 1px solid #3a202c;
   padding: 15px;
-  border-left: 2px solid #5b2c6f;
-  background: #12121a;
+  margin: 15px 0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
 
-.stats {
+/* STATYSTYKI */
+.stats, .backpack {
   width: 100%;
   border-collapse: collapse;
 }
 
-.stats td {
+.stats td, .backpack td {
   padding: 8px;
-  border-bottom: 1px solid #2b1b2f;
+  border-bottom: 1px solid #3a202c;
 }
 
-.equipment-block {
-  margin-top: 10px;
-  padding: 10px;
-  background: #14141d;
-  border: 1px solid #2a1b2f;
+.stats td:first-child {
+  color: #f2b6d5;
 }
 
-.backpack {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.backpack td {
-  padding: 6px;
-  border-bottom: 1px solid #2a1b2f;
-}
-
+/* LISTY */
 ul {
-  list-style-type: "✦ ";
+  list-style-type: "✧ ";
+  padding-left: 20px;
 }
 
-a {
-  color: #d4a5d4;
-  margin-right: 15px;
+/* 🔮 NAV — TERAZ DUŻY I WYRAŹNY */
+nav {
+  position: sticky;
+  top: 0;
+  background: #1c1218;
+  border: 2px solid #c46a92;
+  padding: 12px;
+  margin: 20px 0;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(196, 106, 146, 0.2);
+  z-index: 1000;
+}
+
+nav a {
+  color: #f2b6d5;
   text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 8px 12px;
+  border: 1px solid transparent;
+  transition: 0.2s;
 }
 
-a:hover {
-  color: #ffffff;
+nav a:hover {
+  border: 1px solid #f2b6d5;
+  background: #2a1822;
 }
 
+/* SUBTEKST */
+.sub {
+  color: #b08a9a;
+  font-style: italic;
+  text-align: center;
+}
+
+/* PUSTE */
 .empty {
-  color: #6e5c70;
+  color: #7a6670;
   font-style: italic;
 }
