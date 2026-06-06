@@ -188,3 +188,53 @@ nav a:hover {
 .spell-content p {
   margin: 8px 0;
 }
+
+
+
+
+
+
+/* KARTY STATYSTYK BOJOWYCH */
+
+.combat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.combat-card {
+  background: #171217;
+  border: 1px solid #3a202c;
+  padding: 18px;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.combat-card:hover {
+  background: #21161d;
+  border-color: #c46a92;
+}
+
+.combat-title {
+  display: block;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #b08a9a;
+  margin-bottom: 8px;
+}
+
+.combat-value {
+  display: block;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #f2b6d5;
+  margin-bottom: 6px;
+}
+
+.combat-desc {
+  display: block;
+  font-size: 0.85rem;
+  color: #b08a9a;
+}
