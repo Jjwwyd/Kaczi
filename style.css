@@ -147,3 +147,44 @@ nav a:hover {
 .spell-table td:nth-child(3) {
   text-align: left;
 }
+
+
+
+/* SPELL CARD */
+.spell-card {
+  margin: 12px 0;
+  border: 1px solid #3a202c;
+  background: #171217;
+}
+
+.spell-card summary {
+  padding: 14px;
+  cursor: pointer;
+  color: #f2b6d5;
+  font-weight: bold;
+  user-select: none;
+  list-style: none;
+}
+
+.spell-card summary::-webkit-details-marker {
+  display: none;
+}
+
+.spell-card summary::before {
+  content: "✦ ";
+  color: #d48fb0;
+}
+
+.spell-card[open] summary {
+  border-bottom: 1px solid #3a202c;
+  background: #21161d;
+}
+
+.spell-content {
+  padding: 15px;
+  line-height: 1.6;
+}
+
+.spell-content p {
+  margin: 8px 0;
+}
